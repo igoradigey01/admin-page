@@ -1,0 +1,50 @@
+@import "./../../styles/variables";
+$bg-color:$c5;
+$color:$c3;
+$h-color:    $c6;      //#66757f;
+
+
+.container{
+    min-height: 400px;
+    background-color: $bg-color;
+    color: $color;
+}
+.welcome{
+    display: flex;
+    h1{
+        margin-left: auto;
+        margin-right: auto;
+        color: $h-color;
+        margin-top: 10px;
+    }
+}
+.about{
+    display: flex;
+    margin-top: 10px;
+     h2{
+       color: $color-logo;
+     }
+
+   div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.c-2{
+    padding: 0 20px ;
+
+    color: $h-color;;
+
+}
+.c-1{
+    padding: 0 5px;
+    margin-top: 10px;
+}
+mat-panel-title
+{
+  background-color: $c7;
+}
+mat-expansion-panel-header{
+  padding: 0 10px;
+}
+

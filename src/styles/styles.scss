@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./variables";
+@import "./stylesnull.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+
+
+button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  justify-content: center; //
+  align-items: center;
+  padding: 0;
+  margin: 0 0.5;
+  background: none;
+  border-radius: 0.3rem;
+  border: 0.15rem solid;
+  border-color: #d5a4d4;
+  &:hover {
+    background-color: $primary-color-dark;
+    border-color: $accent-color;
+    color: $accent-color;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
