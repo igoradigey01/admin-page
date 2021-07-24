@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'admin-page';
   year:number=new Date(2021,0,1).getFullYear();
-  titl:string="Цыганков И.В. ";
+  titl:string=" ИП Цыганков ";
+  company_name:string='X-01'; //First Site
 }

@@ -23,6 +23,25 @@ body {
   box-sizing: inherit;
 }
 
+ul{
+  margin-left: 1rem;
+}
+li{
+  list-style-type: none;
+}
+
+.mat-body-2
+{
+  font-weight: 500;
+}
+
+.img-social-apps{  // vk instogramm wathaap
+  height: 20px;
+  vertical-align: middle;
+}
+.conteiner-social-apps{
+  display: flex;
+}
 
 
 

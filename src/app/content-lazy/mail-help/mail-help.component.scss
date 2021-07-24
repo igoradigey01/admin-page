@@ -1,0 +1,10 @@
+.img-full{
+ // aspect-ratio: auto;
+  object-fit: contain; //гарантирует видимость всего img
+  width: 100%;
+}
+.img-conteiner{
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+}
+

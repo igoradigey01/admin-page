@@ -1,0 +1,28 @@
+.img-circle
+{
+  border-radius: 50%;
+  vertical-align: middle ;
+  height: 6.25rem;
+}
+.conteiner{
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+ // flex-flow: column-reverse;
+}
+@media (min-width: 960px) {
+
+  .img-circle
+{
+  border-radius: 50%;
+  vertical-align: middle ;
+  height: 12.5rem;
+}
+
+  .conteiner{
+    display: block;
+    width:70%;
+    margin: 0 auto;
+   // flex-flow: column-reverse;
+  }
+}
