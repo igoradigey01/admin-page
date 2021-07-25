@@ -15,6 +15,8 @@ export class ContentComponent implements OnInit {
 
 
   flagMialHelp:boolean=false;
+  flagDomainNameHelp:boolean=false;
+  flagSaitHelp:boolean=false;
   //flagSateHelp:boolean=true;
   //flags=[new{name:"mail"}];
 
@@ -27,10 +29,29 @@ export class ContentComponent implements OnInit {
   }
 
   LoadMailLazy(){
-     //this.flagSateHelp=false;
+    this.flagDomainNameHelp=false;
+    this.flagSaitHelp=false;
     this.flagMialHelp=true;
+
  //  console.log("this.flagMialHelp---"+this.flagMialHelp);
     this.router.navigate(['lazy-help', 'mail-help'], {relativeTo: this.route});
+  }
+
+  LoadDomainNameLazy(){
+    this.flagMialHelp=false;
+    this.flagSaitHelp=false;
+    this.flagDomainNameHelp=true;
+    //  console.log("this.flagMialHelp---"+this.flagMialHelp);
+    this.router.navigate(['lazy-help', 'domain-name-help'], {relativeTo: this.route});
+
+  }
+  LoadSaitLazy(){
+    this.flagMialHelp=false;
+    this.flagDomainNameHelp=false;
+    this.flagSaitHelp=true;
+    //  console.log("this.flagMialHelp---"+this.flagMialHelp);
+    this.router.navigate(['lazy-help', 'sait-help'], {relativeTo: this.route});
+
   }
 
 
