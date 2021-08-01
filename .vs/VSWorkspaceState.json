@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\content",
+    "\\src\\app\\content-lazy",
+    "\\src\\app\\content-lazy\\domain-name-help"
+  ],
+  "SelectedNode": "\\src\\app\\content\\content.component.html",
+  "PreviewInSolutionExplorer": false
+}
