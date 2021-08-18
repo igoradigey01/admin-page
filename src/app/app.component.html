@@ -1,62 +1,11 @@
 <header class="mat-body-strong">
-    <mat-toolbar class="container">
-      <div class="col_inner">
-        <a href="" class="nav_link">
-          <span class="logo_inner-name">CMS</span>
-          <img
-            class="logo_inner-img"
-            src="./../assets/icons/logo.png"
-            alt=""
-            loading="lazy"
-          />
-          <span class="logo_inner-name">{{company_name}}</span>
-        </a>
-      </div>
-      <div class="col_inner logo-column">
-        <div class="logo-position-name">CMS - {{company_name}}</div>
-        <a class="nav_link" href="tel:+79002440328"> (+7-900-244-03-28 ) </a>
-      </div>
 
-
-      <div class="col_inner">
-<div class="mobile-nav">
-
-
-        <!---       statr -->
-        <div class="menu-md">
-
-          <button mat-icon-button [matMenuTriggerFor]="beforeMenu" class="nav_link" aria-label=" menu icon">
-            <mat-icon>menu</mat-icon>
-          </button>
-
-<mat-menu #beforeMenu="matMenu" >
-  <ng-template matMenuContent>
-  </ng-template>
-  <button mat-menu-item routerLink="lazy-page/price" >Тарифы</button>
-  <button mat-menu-item routerLink="lazy-page/about"  >онас</button>
-
-</mat-menu>
-
-
-        </div>
-      </div>
-
-
-        <div class="menu-lg">
-          <span>
-            <a class="nav_link" routerLink="lazy-page/price" >Тарифы</a>
-          </span>
-          <span>
-            <a class="nav_link" routerLink="lazy-page/about" >онас</a>
-          </span>
-        </div>
-      </div>
-
-    </mat-toolbar>
+<app-header></app-header>
   </header>
-<router-outlet></router-outlet>
+
+
 <footer class="footer">
-    <div  class="jumbotron text-center bg-dark text-white">
+    <div  class=" text-center ">
 
         <p> &copy;{{year}} {{titl}}  </p>
 

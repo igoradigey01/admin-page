@@ -7,6 +7,6 @@
     "\\src\\app\\content-lazy",
     "\\src\\app\\content-lazy\\domain-name-help"
   ],
-  "SelectedNode": "\\src\\app\\content\\content.component.html",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }

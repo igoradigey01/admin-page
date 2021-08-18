@@ -5,6 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 const material = [
   MatToolbarModule,
@@ -12,7 +13,8 @@ const material = [
   MatIconModule,
   MatExpansionModule,
   MatDividerModule,
-  MatMenuModule
+  MatMenuModule,
+  MatSidenavModule
 ];
 
 @NgModule({
