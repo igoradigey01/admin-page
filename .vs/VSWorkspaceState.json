@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\app",
-    "\\src\\app\\content",
+    "\\nginx",
     "\\src\\app\\content-lazy",
-    "\\src\\app\\content-lazy\\domain-name-help"
+    "\\src\\app\\header",
+    "\\src\\environments",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\docker-compose.yml",
   "PreviewInSolutionExplorer": false
 }
