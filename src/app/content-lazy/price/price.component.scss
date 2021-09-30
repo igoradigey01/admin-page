@@ -1,3 +1,73 @@
-._container{
-  min-height: 10rem;
+@import "./../../../styles/variables";
+
+
+//------------------------------------------------
+.c-2{
+  text-align: center;
 }
+._container{
+  background-color:#F3F6F6;
+}
+
+._container_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+
+
+}
+
+._card {
+  max-width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+
+}
+._header-image {
+  background-image: url('./../../../assets/icons/logo.png');
+  background-size: cover;
+}
+mat-expansion-panel-header{
+  height: 2rem;
+
+}
+h4{
+  background-color:$h-bg-color;// salmon;
+ // text-align: center;
+  padding-left: 1rem;
+}
+
+._s{
+  background-color: hsl(39deg 100% 90%); //rgb(223, 219, 165);
+}
+ul{
+  margin-left: 1rem;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+@media (min-width: 960px) {
+  ._body{
+    max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ._container_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+
+}
+

@@ -8,7 +8,7 @@
     color: $color;
 }
 @media (min-width: 960px) {
-  .body{
+  ._body{
     max-width: 52rem;
     margin-left: auto;
     margin-right: auto;
@@ -53,11 +53,7 @@
 }
 
 
-h4{
-  background-color:$h-bg-color;// salmon;
- // text-align: center;
-  padding-left: 1rem;
-}
+
 /*
 mat-panel-title
 {

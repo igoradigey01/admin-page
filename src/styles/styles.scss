@@ -34,6 +34,16 @@ li{
 {
   font-weight: 500;
 }
+._container
+{
+  min-height: 400px;
+  padding: 0 0;
+  margin: 0 0;
+  display: block;
+  overflow:  hidden;
+  background-color: $bg-color;
+  color: $color;
+}
 
 .img-social-apps{  // vk instogramm wathaap
   height: 20px;
@@ -41,6 +51,11 @@ li{
 }
 .conteiner-social-apps{
   display: flex;
+}
+h4{
+  background-color:$h-bg-color;// salmon;
+ // text-align: center;
+  padding-left: 1rem;
 }
 
 
